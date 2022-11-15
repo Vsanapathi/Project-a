@@ -1,0 +1,46 @@
+ 1  yum install docker -y
+    2  docker --version
+    3  docker version
+    4  systemctl start docker.service
+    5  systemctl status docker.service
+    6  docker version
+    7  docker images
+    8  docker search ubuntu
+    9  docker images
+   10  docker ps -a
+   11  docker run ubuntu
+   12  docker images
+   13  docker ps -a
+   14  docker run --name swiggy1 ubuntu
+   15  docker ps -a
+   16  docker run -itd --name swiggy2 ubuntu
+   17  docker ps -a
+   18  docker attach swiggy2
+   19  docker ps -a
+   20  docker start swiggy2
+   21  docker ps -a
+   22  docker stop swiggy2
+   23  docker ps -a
+   24  docker attach swiggy2
+   25  docker start swiggy2
+   26  docker attach swiggy2
+   27  docker ps -a
+   28  docker rm unruffled_torvalds
+   29  docker ps -a
+   30  docker start swigg2
+   31  docker start swiggy2
+   32  docker ps -a
+   33  docker rm swiggy2
+   34  docker stop swiggy2
+   35  docker rm swiggy2
+   36  docker ps -a
+   37  docker kill swiggy1
+   38  docker start swiggy1
+   39  docker ps -a
+   40  docker kill swiggy1
+   41  history
+   42  docker run -itd --name swiggy2 ubuntu
+   43  docker ps -a
+   44  docker kill swiggy2
+   45  docker ps -a
+   46  history
