@@ -1,7 +1,7 @@
  1  yum install docker -y
     2  docker --version
     3  docker version
-    4  systemctl start docker.service
+    4  systemctl star
     5  systemctl status docker.service
     6  docker version
     7  docker images
